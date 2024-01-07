@@ -13,12 +13,14 @@ body {
     width: 82.5%;
     margin: 0 auto;
 }
+img{
+    max-width: 100%;
+}
 
 p{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-
     font-weight: 400;
     line-height: 32px; /* 160% */
 }
@@ -28,6 +30,12 @@ p{
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
+}
+.heading-5{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 /* Hero Style */
@@ -188,4 +196,46 @@ p{
 }
 .commingSoonContainer .secondBlock .imgContainer img{
     width: 100%;
+}
+/* Functional Seyle */
+
+.functionalContainer{
+    margin: 60px auto;
+    text-align: center;
+}
+.functionalContainer span{
+    color: #F00;
+}
+.functionalContainer h1{
+    margin: 16px 0 28px;
+}
+.functionalContainer p{
+    margin: 0 auto 64px;
+    width: 80%;
+}
+.poster{
+    position: relative;
+}
+.poster .firstImgContainer{
+    display: flex;
+    justify-content: end;    
+}
+.poster .firstImgContainer .rightfImg{
+    display: flex;
+    align-items: center;
+}   
+.poster .firstImgContainer .rightfImg .stickerContainer{
+    margin-right: -150px;
+    z-index: 10;
+}
+
+
+.poster .secondImgContainer img{
+   width: 100%;
+}
+.poster .secondImgContainer img#giftBox{
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+    width: 680px;
 }
